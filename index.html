@@ -304,6 +304,21 @@
         </div>
     </section>
 
+                    <section id="cv-section">
+        <h2 class="ar-content">استعراض السيرة الذاتية</h2>
+        <h2 class="en-content">Curriculum Vitae Preview</h2>
+        
+        <div class="cv-container">
+            <!-- استبدل cv.pdf بمسار ملفك الحقيقي -->
+            <iframe src="cv.pdf#toolbar=0" title="CV Viewer"></iframe>
+        </div>
+
+        <a href="cv.pdf" download class="download-btn">
+            <span class="ar-content">📥 تحميل السيرة الذاتية PDF</span>
+            <span class="en-content">📥 Download CV as PDF</span>
+        </a>
+    </section>
+
     <!-- Section 4: Contact -->
     <section id="contact">
         <div class="section-header">
@@ -320,23 +335,9 @@
             
             </div>
               
-                <section id="cv-section">
-        <h2 class="ar-content">استعراض السيرة الذاتية</h2>
-        <h2 class="en-content">Curriculum Vitae Preview</h2>
-        
-        <div class="cv-container">
-            <!-- استبدل cv.pdf بمسار ملفك الحقيقي -->
-            <iframe src="cv.pdf#toolbar=0" title="CV Viewer"></iframe>
-        </div>
-
-        <a href="cv.pdf" download class="download-btn">
-            <span class="ar-content">📥 تحميل السيرة الذاتية PDF</span>
-            <span class="en-content">📥 Download CV as PDF</span>
-        </a>
-    </section>
 
             <div class="contact-form">
-                <form id="legalForm" action="https://formspree.io/f/esam.elobab@gmail.com" method="POST">
+                <form id="legalForm" action="https://formspree.io/f/mbgrrnvb" method="POST">
                  <input type="text" placeholder="الاسم الكامل" required>
                  <input type="email" placeholder="البريد الإلكتروني" required>
                  <input type="text" placeholder="الموضوع (مثلاً: استشارة في عقد FIDIC)">
@@ -365,7 +366,7 @@
         // رسالة تأكيد عند إرسال النموذج
         document.getElementById('legalForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('شكراً لتواصلك يا سيد عصام. تم استلام طلب الاستشارة وسأقوم بالرد عليك في أقرب وقت ممكن.');
+            alert('شكراً لتواصلك . تم استلام طلب الاستشارة وسأقوم بالرد عليك في أقرب وقت ممكن.');
             this.reset();
         });
     </script>
