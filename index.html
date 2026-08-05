@@ -364,11 +364,7 @@
         });
 
         // رسالة تأكيد عند إرسال النموذج
-        document.getElementById('legalForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('شكراً لتواصلك . تم استلام طلب الاستشارة وسأقوم بالرد عليك في أقرب وقت ممكن.');
-            this.reset();
-        });
+       <p id="formStatus" style="display:none; color: green; margin-top: 15px; font-weight: bold;">شكراً لتواصلك. تم استلام طلب الاستشارة وسأقوم بالرد عليك في أقرب وقت ممكن.</p>
     </script>
 </body>
 </html>
